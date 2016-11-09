@@ -1,0 +1,22 @@
+{
+  "name": "react-menu-component",
+  "version": "0.0.1",
+  "description": "This is a basic react menu",
+  "main": "menu.jsx",
+  "scripts": {
+    "test": "react-menu-component"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laynefaler/react-menu-npm.git"
+  },
+  "author": "Layne Faler <laynefaler>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laynefaler/react-menu-npm/issues"
+  },
+  "homepage": "https://github.com/laynefaler/react-menu-npm#readme",
+  "dependencies": {
+    "react-router": "^3.0.0"
+  }
+}
