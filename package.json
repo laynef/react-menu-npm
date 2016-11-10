@@ -1,6 +1,6 @@
 {
   "name": "react-menu-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a basic react menu",
   "main": "menu.jsx",
   "scripts": {

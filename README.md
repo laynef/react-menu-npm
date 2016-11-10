@@ -15,11 +15,11 @@
 
 `npm install react-menu-component`<br/>
 
-In File:
+In File: <br />
 
 `import Menu from 'react-menu-component';` <br/>
 
-To Use:
+To Use: <br />
 `var arrayOfMenuNames = ['home', 'etc..'];` <br />
 `<Menu menuList={arrayOfMenuNames} />` <br/>
 
