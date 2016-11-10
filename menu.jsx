@@ -3,32 +3,32 @@
 * @Date:   11-05-2016
 * @Email:  laynefaler@gmail.com
 * @Last modified by:   laynefaler
-* @Last modified time: 11-08-2016
+* @Last modified time: 11-05-2016
 */
 
 import React from 'react';
 import { Router, Route, Link } from 'react-router';
 
+var MenuList = [
+  // enter menu items
+];
+
+var MenuElements = MenuList.map(function(e,i,a) {
+  var link = e.replace(/[^a-zA-Z]/g, '').toLowerCase();
+  if (e === "Home") link = "";
+  return (
+    <li>
+      <Link to={"/" + link}>{e}</Link>
+    </li>
+  );
+});
+
 var Menu = React.createClass({
-  propTypes: {
-    menuList: React.PropTypes.array.isReqired
-  },
   render: function() {
-
-    var MenuElements = menuList.map(function(e,i,a) {
-      var link = e.replace(/[^a-zA-Z]/g, '').toLowerCase();
-      if (e === "Home") link = "";
-      return (
-        <li>
-          <Link to={"/" + link}>{e}</Link>
-        </li>
-      );
-    });
-
     return (
       <div id="menu">
         <ul>
-          <MenuElements menuList={this.props.MenuList} />
+          <MenuElements />
         </ul>
       </div>
     );
