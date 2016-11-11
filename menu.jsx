@@ -3,7 +3,7 @@
 * @Date:   11-05-2016
 * @Email:  laynefaler@gmail.com
 * @Last modified by:   laynefaler
-* @Last modified time: 11-05-2016
+* @Last modified time: 11-10-2016
 */
 
 import React from 'react';
@@ -28,7 +28,7 @@ var Menu = React.createClass({
     return (
       <div id="menu">
         <ul>
-          <MenuElements />
+          { MenuElements }
         </ul>
       </div>
     );
